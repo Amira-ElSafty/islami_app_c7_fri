@@ -142,7 +142,7 @@ class QuranTab extends StatelessWidget {
         Expanded(
           child: ListView.separated(
               itemBuilder: (context, index) {
-                return SuraName(
+                return ItemSuraName(
                   name: names[index],
                   index: index,
                 );
